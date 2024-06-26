@@ -1,0 +1,38 @@
+import time
+nome=(input('  ola estranho, poderia me dizer seu nome?  '))
+(time.sleep(1))
+print('  ola',nome.capitalize())
+
+valido = False
+
+while valido == False:
+
+  escolha=input('  Você se identifica mais com um mago sábio e poderoso, um assassino ágil e furtivo, ou um cavaleiro corajoso e leal?  ')
+
+  (time.sleep(1))
+
+  if escolha == 'mago':
+      valido = True
+      print('  Boa escolha. Com vasto conhecimento e poderosos feitiços à sua disposição, você pode manipular as forças arcanas para superar qualquer desafio. Prepare-se para desvendar os segredos do universo')
+
+  elif escolha == 'assasino':
+   valido = True
+   print('  interessante, assasinos sao mestres da furtividade e da precisão, você se move nas sombras e elimina seus alvos sem ser visto. Sua agilidade e astúcia farão de você um adversário formidável')
+
+  elif escolha == 'cavaleiro':
+      valido = True
+      print('  Você escolheu o cavaleiro. Com coragem inabalável e uma armadura reluzente, você defenderá a honra e a justiça no campo de batalha. Sua lealdade e bravura inspirarão todos ao seu redor')
+      
+      
+
+  else:
+     
+      print('an? nao entendi. Por favor, escolha entre mago, assassino ou cavaleiro.')
+
+(time.sleep(2))
+
+print('  anos depois...')
+
+(time.sleep(1))
+
+print('Observando sua jornada até aqui, percebo como uma única escolha no passado moldou todo o curso desta aventura. Cada desafio enfrentado, cada vitória conquistada, reflete a determinação e a estratégia que você escolheu desde o início. As consequências dessa decisão ecoam por todo o caminho percorrido, guiando você através de territórios perigosos e momentos decisivo')
